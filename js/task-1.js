@@ -6,19 +6,19 @@ const customer = {
   // Change code below this line
   getBalance() {
     return this.balance;
-    },
+  },
   
   getDiscount() {
     return this.discount;
-    },
+  },
   
   setDiscount(value) {
     this.discount = value;
-    },
+  },
   
   getOrders() {
     return this.orders;
-    },
+  },
   
   addOrder(cost, order) {
     this.balance -= cost - cost * this.discount;
